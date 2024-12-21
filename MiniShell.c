@@ -48,6 +48,7 @@ void execute_command(char *command) {
     CloseHandle(pi.hThread);
 }
 
+// This is just a comment which is not on the master branch.
 int main() {
     char command[MAX_COMMAND_LENGTH];
 
@@ -66,4 +67,3 @@ int main() {
 
     return 0;
 }
-
